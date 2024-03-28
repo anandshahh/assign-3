@@ -8,7 +8,7 @@ def hello_cloud():
   
 @app.route('/host')
 def host_info():
-  return 'Hello Form ECS Fargate aman'
+  return 'Hello Aman'
 
 
 app.run(host='0.0.0.0')
