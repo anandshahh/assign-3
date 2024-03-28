@@ -1,5 +1,5 @@
 #Acquiring Python 3.11
-FROM python:3.11.8-slim-bookworm
+FROM python:3.12.2-slim-bookworm
 
 #Make app folder on root
 RUN mkdir -p /app
