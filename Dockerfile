@@ -18,4 +18,4 @@ COPY Procfile ./
 #Run app with gunicorn 
 CMD ["gunicorn",  "-b", "0.0.0.0:3000", "app:app"]
 
-EXPOSE 3000
+EXPOSE 5000
