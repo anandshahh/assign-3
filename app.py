@@ -8,7 +8,7 @@ def hello_cloud():
   
 @app.route('/host')
 def host_info():
-  return 'Hello Aman'
+  return 'Hello helo aman! codepipeline working'
 
 
 app.run(host='0.0.0.0')
