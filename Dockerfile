@@ -13,6 +13,7 @@ RUN pip3 install -r requirements.txt
 
 #Copy application to working directoy
 COPY *.py ./
+COPY Procfile ./
 
 #Run app with gunicorn 
 CMD ["gunicorn",  "-b", "0.0.0.0:5000", "app:app"]
