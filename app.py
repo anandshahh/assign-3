@@ -11,7 +11,7 @@ def hello_cloud():
   
 @app.route('/host')
 def host_info():
-  print (f"Hostname: {hostnmae}")
-  print (f"IP Address: {ip_address}")
+  return 'Hello Form ECS Fargate'
+
 
 app.run(host='0.0.0.0')
