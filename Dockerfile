@@ -1,5 +1,6 @@
 #Acquiring Python 3.11
-FROM python:3.8.19-slim-bullseye
+#FROM python:3.8.19-slim-bullseye
+From 933624222637.dkr.ecr.ca-central-1.amazonaws.com/python-base-image:df50d42
 
 #Make app folder on root
 RUN mkdir -p /app
