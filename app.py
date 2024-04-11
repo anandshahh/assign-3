@@ -4,16 +4,16 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_cloud():
-  return 'Hello From kumar ECS Container!'
+  return 'Hello From Anand Shah ECS Container!'
   
 @app.route('/host')
 def host_info():
-  return 'Hello Aman'
+  return 'Hello Anand'
 
 
-@app.route('/aman')
+@app.route('/anand')
 def aman_info():
-  return 'Hello Aman Kumar'
+  return 'Hello Anand Shah'
 
 
 app.run(host='0.0.0.0')
